@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-part">
+        <h1 id="first-heading">Weather Api</h1>
+        <form onsubmit="display();return false">
+            <div class="form-group">
+              <label for="formGroupExampleInput"></label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Location" required>
+              <span id="message1"></span>
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2" class="message2"></label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Access Token" required>
+              <span id="message2"></span>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+    </div>
+    <div id="showInfo" class="Output-section">
+        <h1 id="second-heading">Weather Data</h1>
+        <div class="location-heading" id="location">Location:</div>
+<div class="lat-heading">Lat:</div>
+<div class="long-heading">Long:</div>
+<div class="time-heading">Time Zone:</div>
+<div class="Wind-heading">Wind Speed:</div>
+<div class="Pressure-heading">Pressure:</div>
+<div class="Humidity-heading">Humidity:</div>
+<div class="Wind-direction-heading">Wind Direction:</div>
+<div class="uv-heading">UV Index:</div>
+<div class="feels-heading">Feels Like:</div>
+<div class="rectangle-box"></div>
+</div>
+    
+<script src="script.js"></script>
+</body>
+</html>

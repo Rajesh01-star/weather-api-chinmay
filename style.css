@@ -1,0 +1,219 @@
+.form-part {
+  left: 0px;
+  top: 0px;
+  background: #000000;
+  align-self: center;
+}
+#first-heading {
+  font-family: "Inter";
+  font-style: normal;
+  text-align: center;
+  color: white;
+}
+#second-heading {
+  font-family: "Inter";
+  font-style: normal;
+  color: black;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: white;
+  color: black;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+#message1 {
+  color: white;
+}
+#message2 {
+  color: white;
+}
+.location-heading {
+  position: absolute;
+  width: 669.46px;
+  height: 74px;
+  left: 116px;
+  top: 1192px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #000000;
+}
+
+.lat-heading {
+  position: absolute;
+  width: 669.46px;
+  height: 74px;
+  left: 116px;
+  top: 1301px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #000000;
+}
+
+.long-heading {
+  position: absolute;
+  width: 669.46px;
+  height: 74px;
+  left: 849px;
+  top: 1313px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #000000;
+}
+
+.time-heading {
+  position: absolute;
+  width: 669.46px;
+  height: 74px;
+  left: 116px;
+  top: 1410px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #000000;
+}
+
+.Wind-heading {
+  position: absolute;
+  width: 669.46px;
+  height: 74px;
+  left: 116px;
+  top: 1519px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #000000;
+}
+
+.Pressure-heading {
+  position: absolute;
+  width: 669.46px;
+  height: 74px;
+  left: 116px;
+  top: 1622px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #000000;
+}
+
+.Humidity-heading {
+  position: absolute;
+  width: 669.46px;
+  height: 74px;
+  left: 116px;
+  top: 1725px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #000000;
+}
+
+.Wind-direction-heading {
+  position: absolute;
+  width: 669.46px;
+  height: 74px;
+  left: 116px;
+  top: 1828px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #000000;
+}
+
+.uv-heading {
+  position: absolute;
+  width: 669.46px;
+  height: 74px;
+  left: 116px;
+  top: 1937px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #000000;
+}
+
+.feels-heading {
+  position: absolute;
+  width: 669.46px;
+  height: 74px;
+  left: 116px;
+  top: 2040px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #000000;
+}
+
+.rectangle-box {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1585px;
+  height: 1120px;
+  left: 62px;
+  top: 1136px;
+
+  border: 2px solid #000000;
+}
+
+#formGroupExampleInput {
+  background-color: black;
+  font-weight: 400;
+  color: white;
+}
+#formGroupExampleInput2 {
+  background-color: black;
+  color: white;
+}
